@@ -1,2 +1,2 @@
-#!/bin/bash	
-cp --parents `find -name \*.html*` /alx-system_engineering-devops
+#!/bin/bash
+find . -name "*.html" -type f | xargs cp -vt /alx-system_engineering-devops
