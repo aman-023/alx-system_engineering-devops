@@ -1,0 +1,2 @@
+#!/bin/bash
+sort < 0x02-shell_redirections > 12-newest_files
